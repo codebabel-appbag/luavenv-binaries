@@ -1,0 +1,3 @@
+LANGUAGE: Lua
+BINARIES: 5
+COMPLETE: *.zip
