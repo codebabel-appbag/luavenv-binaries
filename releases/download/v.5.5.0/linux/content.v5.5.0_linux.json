@@ -17,7 +17,7 @@
       "kernel_5.1.5": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz",
       "kernel_4.1.5": ""
 
-      "lastest": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz"
+      "latest": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz"
     }
     
   ]
