@@ -9,7 +9,7 @@ Gerenciador de ambientes virtuais isolados para Lua, inspirado no `venv` do Pyth
 
 ## Instalação
 
-Baixe o executável pré-compilado para o seu sistema na aba [Releases](https://github.com/SEU_USUARIO/luavenv/releases).
+Baixe o executável pré-compilado para o seu sistema na aba [Releases](https://github.com/codebabel-appbag/luavenv-binaries/releases).
 
 ## Como Usar
 
