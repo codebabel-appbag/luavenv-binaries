@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "releases": {
+    "5.4.6": {
+      "linux-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.4.6/lua-5.4.6-linux-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "macos-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.4.6/lua-5.4.6-macos-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "windows-x64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.4.6/lua-5.4.6-windows-x64.zip",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      }
+    },
+    "5.3.6": {
+      "linux-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.3.6/lua-5.3.6-linux-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "macos-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.3.6/lua-5.3.6-macos-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "windows-x64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.3.6/lua-5.3.6-windows-x64.zip",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      }
+    },
+    "5.1.5": {
+      "linux-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.1.5/lua-5.1.5-linux-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "macos-x86_64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.1.5/lua-5.1.5-macos-x86_64.tar.gz",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      },
+      "windows-x64": {
+        "url": "https://github.com/SEU_USUARIO/luavenv-binaries/releases/download/v5.1.5/lua-5.1.5-windows-x64.zip",
+        "sha256": "hash_sha256_do_arquivo_aqui"
+      }
+    }
+  }
+}
