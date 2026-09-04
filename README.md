@@ -15,21 +15,23 @@ Baixe o executável pré-compilado para o seu sistema na aba [Releases](https://
 
 ### 1. Criar um ambiente virtual
 ```bash
-luavenv meu_ambiente --lua:5.3.6
+# criar seu ambiente lua |
+luavenv my_venv --lua:5.3.6
 ```
 ### 2. Ativar o ambiente:
 
 ```bash
-# linux/macOs:
+# linux/macOs |
 source my_venv/bin/activate
 ```
 ```dos
-rem Windows:
+rem Windows |
 my_venv\bin\activate.bat
 ```
 ### 3. Instalar pacotes com LuaRocks:
 ```bash
-luarocks install luavenv
+# Após a ativação, qualquer pacote instalado via luarocks ficará restrito ao diretório
+luarocks install luasocket
 ```
 
 Licença
