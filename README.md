@@ -15,8 +15,8 @@ Baixe o executável pré-compilado para o seu sistema na aba [Releases](https://
 
 ### 1. Criar um ambiente virtual
 ```bash
-# criar seu ambiente lua |
-luavenv my_venv --lua:5.3.6
+# criar seu ambiente lua | --lua:3.2.2 > --lua:5.5.0
+luavenv my_venv --lua:5.5.0
 ```
 ### 2. Ativar o ambiente:
 
