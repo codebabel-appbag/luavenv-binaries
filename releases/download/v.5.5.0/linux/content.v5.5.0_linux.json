@@ -1,25 +1,24 @@
 {
-  "linux_root": [
-    "root_folder":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux"
-  ],
-  "lua-binaries.v5.5.0_linux": [
+  "lua_linux_v5.5.0": [
+    "folders": {
+      "linux_root":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux",
+      "linux_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux/linux_binaries",
+      "linux_documentation":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux/linux_documentation",
+      "linux_tools": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux/linux_tools"
+    },
+    "files": {
+      "complete_package": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/linux/linux_binaries/zpak.linux.lua.v5.5.0.complete-package.09.2026.zip",
+      "documentation": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/zpak.linux.lua.v5.5.0.documentation.09.2026.zip",
+      "only_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/zpak.linux.lua.v5.5.0.only-binaries.09.2026.zip",
+      "tools": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/zpak.linux.lua.v5.5.0.tools.09.2026.zip"
+    },
     "linux_binaries": {
-        "release_folder": "https://github.com/codebabel-appbag/luavenv-binaries/edit/main/releases/download/v.5.5.0/linux/releases/",
-        "Linux313_64": "Ubuntu 14.04 (x64) / Kernel 3.13 / gcc 4.8",
-        "Linux319_64": "Ubuntu 15.04 (x64) / Kernel 3.19 / gcc 4.9",
-        "Linux44_64": "Ubuntu 16.04 (x64) / Kernel 4.4 / gcc 5.3",
-        "Linux415_64": "Ubuntu 18.04 (x64) / Kernel 4.15 / gcc 7.3",
-        "Linux50_64": "Ubuntu 19.04 (x64) / Kernel 5.0 / gcc 8.3",
-        "Linux54_64": "Ubuntu 20.04 (x64) / Kernel 5.4 / gcc 9.3",
-        "release-latest": "Ubuntu 20.04 (x64) / Kernel 5.4 / gcc 9.3",
-        "fullpack": "lua-5.5.0_linux_x64_lib_fullpack.09.2026.zip"
-    }],
+      "binaries_pack": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_linux_x64_lib_binarie-pack.09.2026.zip",
+      "kernel_5.1.5": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz",
+      "kernel_4.1.5": ""
+
+      "lastest": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz"
+    }
     
-    "linux_documentation": [
-        
-    ]
-    
-    "linux_tools": [
-        
-    ]
+  ]
 }
