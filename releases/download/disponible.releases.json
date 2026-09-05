@@ -1,5 +1,5 @@
 {
-  "disponible-releases": [
+  "disponible_releases": [
       "5.5.0": [
         "linux_posix": {
             "kernel_6.8.0":"https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux68_64_lib.tar.gz", 
