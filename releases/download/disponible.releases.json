@@ -1,0 +1,23 @@
+{
+  "disponible-releases": [
+      "5.5.0": [
+        "linux_posix":{
+            "binaries":""
+        },
+        "windows":{
+          "VS2022":"",
+          "VS2019":"",
+          "VS2017":"",
+          "latest":""
+        },
+        "macos":{
+            "arm64":""  
+        }
+      ],
+     "5.4.0": [
+         "linux":"",
+         "windows":"",
+         "macos":""
+     ]
+  ]
+}
