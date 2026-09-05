@@ -1,0 +1,15 @@
+{
+  "disponible-releases": [
+      "5.5.0": [
+        "linux":"",
+        "windows":"",
+        "macos":""
+        
+      ],
+     "5.4.0": [
+         "linux":"",
+         "windows":"",
+         "macos":""
+     ]
+  ]
+}
