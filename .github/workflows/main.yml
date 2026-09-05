@@ -10,8 +10,14 @@ jobs:
   build:
     strategy:
       matrix:
-        arch: [x86_64, arm64]
-    runs-on: macos-latest
+        include:
+          - arch: x86_64
+            runs-on: macos-13
+            deployment_target: 10.11
+          - arch: arm64
+            runs-on: macos-14
+            deployment_target: 11.0
+    runs-on: ${{ matrix.runs-on }}
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
@@ -24,24 +30,21 @@ jobs:
       - name: Compilar para ${{ matrix.arch }}
         run: |
           cd lua-5.5.0
-          if [ "${{ matrix.arch }}" = "arm64" ]; then
-            make macosx CC="clang -arch arm64"
-          else
-            make macosx CC="clang -arch x86_64"
-          fi
+          export MACOSX_DEPLOYMENT_TARGET=${{ matrix.deployment_target }}
+          make macosx CC="clang -arch ${{ matrix.arch }}"
 
       - name: Empacotar e salvar na pasta correta
         run: |
           cd lua-5.5.0
-          mkdir -p ../lua-binaries/macos/${{ matrix.arch }}
-          cp src/lua src/luac src/liblua.a ../lua-binaries/macos/${{ matrix.arch }}/
-          cd ../lua-binaries/macos/${{ matrix.arch }}
+          mkdir -p ../releases/download/v.5.5.0/macos/${{ matrix.arch }}
+          cp src/lua src/luac src/liblua.a ../releases/download/v.5.5.0/macos/${{ matrix.arch }}/
+          cd ../releases/download/v.5.5.0/macos/${{ matrix.arch }}
           tar czf lua-5.5.0_macOS_${{ matrix.arch }}.tar.gz .
 
       - name: Commit e push dos binários
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add lua-binaries/macos/${{ matrix.arch }}/lua-5.5.0_macOS_${{ matrix.arch }}.tar.gz
+          git add releases/download/v.5.5.0/macos/${{ matrix.arch }}/lua-5.5.0_macOS_${{ matrix.arch }}.tar.gz
           git commit -m "Add Lua 5.5.0 macOS ${{ matrix.arch }} binaries" || echo "Nada para commitar"
           git push
