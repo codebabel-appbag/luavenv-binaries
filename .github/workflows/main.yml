@@ -1,0 +1,47 @@
+name: Build Lua 5.5.0 macOS
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        arch: [x86_64, arm64]
+    runs-on: macos-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Baixar fonte do Lua 5.5.0
+        run: |
+          curl -LO https://www.lua.org/ftp/lua-5.5.0.tar.gz
+          tar xzf lua-5.5.0.tar.gz
+
+      - name: Compilar para ${{ matrix.arch }}
+        run: |
+          cd lua-5.5.0
+          if [ "${{ matrix.arch }}" = "arm64" ]; then
+            make macosx CC="clang -arch arm64"
+          else
+            make macosx CC="clang -arch x86_64"
+          fi
+
+      - name: Empacotar e salvar na pasta correta
+        run: |
+          cd lua-5.5.0
+          mkdir -p ../lua-binaries/macos/${{ matrix.arch }}
+          cp src/lua src/luac src/liblua.a ../lua-binaries/macos/${{ matrix.arch }}/
+          cd ../lua-binaries/macos/${{ matrix.arch }}
+          tar czf lua-5.5.0_macOS_${{ matrix.arch }}.tar.gz .
+
+      - name: Commit e push dos binários
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add lua-binaries/macos/${{ matrix.arch }}/lua-5.5.0_macOS_${{ matrix.arch }}.tar.gz
+          git commit -m "Add Lua 5.5.0 macOS ${{ matrix.arch }} binaries" || echo "Nada para commitar"
+          git push
