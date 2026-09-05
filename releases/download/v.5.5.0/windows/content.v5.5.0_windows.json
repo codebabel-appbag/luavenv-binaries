@@ -1,16 +1,16 @@
 {
-  "lua_linux_v5.5.0": [
+  "lua_windows_v5.5.0": [
     "folders": {
-      "linux_root":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows",
-      "linux_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_binaries",
-      "linux_documentation":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_documentation",
-      "linux_tools": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_tools"
+      "windows_root":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows",
+      "windows_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_binaries",
+      "windows_documentation":"https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_documentation",
+      "windows_tools": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_tools"
     },
     "files": {
-      "complete_package": "https://github.com/codebabel-appbag/luavenv-binaries/tree/main/releases/download/v.5.5.0/windows/windows_binaries/zpak.linux.lua.v5.5.0.complete-package.09.2026.zip",
-      "documentation": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/zpak.linux.lua.v5.5.0.documentation.09.2026.zip",
-      "only_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/zpak.linux.lua.v5.5.0.only-binaries.09.2026.zip",
-      "tools": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/zpak.linux.lua.v5.5.0.tools.09.2026.zip"
+      "complete_package": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/zpak.windows.lua.v5.5.0.complete-package.09.2026.zip",
+      "documentation": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/zpak.windows.lua.v5.5.0.documentation.09.2026.zip",
+      "only_binaries": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/zpak.windows.lua.v5.5.0.only-binaries.09.2026.zip",
+      "tools": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/zpak.windows.lua.v5.5.0.tools.09.2026.zip"
     },
     "windows_binaries": {
       "binaries_pack": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_linux_x64_lib_binarie-pack.09.2026.zip",
