@@ -13,9 +13,11 @@
       "tools": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/zpak.windows.lua.v5.5.0.tools.09.2026.zip"
     },
     "windows_binaries": {
-      "binaries_pack": "https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_linux_x64_lib_binarie-pack.09.2026.zip",
-      "kernel_6.0.8": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux68_64_lib.tar.gz",
-      "latest": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux68_64_lib.tar.gz"
+      "binaries_pack": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_windows_x64_lib_binarie-pack.09.2026.zip",
+      "VC++17/VS2022": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc17_lib.zip",
+      "VC++16/VS2019": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc16_lib.zip",
+      "VC++14.1-15/VS2017": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc15_lib.zip",
+      "latest": "https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc17_lib.zip"
     }
     
   ]
