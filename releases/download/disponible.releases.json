@@ -18,6 +18,9 @@
         "macos": {
             "arm64":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/macos/arm64/lua-5.5.0_macOS_arm64.tar.gz"  
         }
-      ]
+      ],
+    "5.4.0": [
+      "test":"test"
+    ]
   ]
 }
