@@ -1,23 +1,23 @@
 {
   "disponible-releases": [
       "5.5.0": [
-        "linux_posix":{
-            "binaries":""
+        "linux_posix": {
+            "kernel_6.8.0":"https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux68_64_lib.tar.gz", 
+            "kernel_5.1.5":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux515_64_lib.tar.gz",
+            "kernel_4.4.0":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux44_64_lib.tar.gz",
+            "kernel_4.1.5":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux415_64_lib.tar.gz",
+            "kernel_3.1.3":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux313_64_lib.tar.gz"
+            "latest":"https://github.com/codebabel-appbag/luavenv-binaries/raw/refs/heads/main/releases/download/v.5.5.0/linux/linux_binaries/lua-5.5.0_Linux68_64_lib.tar.gz"
         },
-        "windows":{
-          "VS2022":"",
-          "VS2019":"",
-          "VS2017":"",
-          "latest":""
+        "windows": {
+            "VS2022":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc17_lib.zip",
+            "VS2019":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc16_lib.zip",
+            "VS2017":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc15_lib.zip",
+            "latest":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/windows/windows_binaries/lua-5.5.0_Win64_vc17_lib.zip"
         },
-        "macos":{
-            "arm64":""  
+        "macos": {
+            "arm64":"https://github.com/codebabel-appbag/luavenv-binaries/blob/main/releases/download/v.5.5.0/macos/arm64/lua-5.5.0_macOS_arm64.tar.gz"  
         }
-      ],
-     "5.4.0": [
-         "linux":"",
-         "windows":"",
-         "macos":""
-     ]
+      ]
   ]
 }
